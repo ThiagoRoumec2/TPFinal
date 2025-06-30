@@ -1,8 +1,58 @@
+.contenedor1 {
+  display: flex;                  
+  justify-content: center;     
+  align-items: center;           
+  height: 100vh;                
+  background-color: #eee;      
+}
 
+.presentacion1 {
+
+  width: 500px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  flex: 1 1 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1.30vh;
+    box-shadow: 0 0.13vh 0.78vh rgba(0,0,0,0.1);
+    justify-content: center;
+
+}
+ .boton{
+  margin: 0.65vh;
+  background-color: #023047;
+  color: white;
+  border: none;
+  border-radius: 0.78vh;
+  padding: 1.30vh;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+ header {
+  background-color: #fff;
+  padding: 1.30vh 2.60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0.26vh 0.65vh rgba(0,0,0,0.1);
+  position: relative;
+  gap: 1.95vh;
+}
 .titulo{
-    text-align: center;
-    color: rgb(192, 161, 113);
-    background-color: rgb(70, 47, 5);
+     font-family: Arial, sans-serif;
+    text-align: start;
+    color:black);
+     background-color: #fff;
+      font-size: 14px;
+    padding: 10px;
+}
+
 }
 h2{
     color: rgb(192, 161, 113);
@@ -20,10 +70,29 @@ h2{
     text-align: center;
     margin: 10px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 1.30vh;
     padding: 10px;
-    box-shadow: 2px 2px 5px rgb(70, 47, 5);
+     box-shadow: 0 0.13vh 0.78vh rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
 }
+.caja:hover {
+  transform: translateY(-0.65vh);
+  box-shadow: 0 0.78vh 1.95vh rgba(0,0,0,0.15);
+}
+.presentacion {
+    flex: 1 1 200px;
+    width: 500px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1.30vh;
+    padding: 10px;
+    box-shadow: 0 0.13vh 0.78vh rgba(0,0,0,0.1);
+    justify-content: center;
+      font-size: 14px;
+    
+}
+
+
 
 .caja.img{
     width: 100%;
@@ -35,22 +104,23 @@ h2{
     margin-top: 10px;
     font-size: 16px;
 }
-a{
-    color:rgb(70, 47, 5);
-}
-a:hover{
-    color:rgb(192, 161, 113) ;
-}
-h3{
-    color: rgb(238, 224, 205);
-    background-color:  rgb(73, 53, 15);
+
+.titulasosdeladescriopcion{
+  background-color: #fff;
+  padding: 1.30vh 2.60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0.26vh 0.65vh rgba(0,0,0,0.1);
+  position: relative;
+  gap: 1.95vh;
+  font-family: Arial, sans-serif;
 }
 p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'font-family: Arial, sans-serif';
   font-size: 1.1rem;         
   line-height: 1.6;          
-  margin: 10px 0 20px 0;     
-  text-align: justify;       
+  margin: 10px 0 20px 0;           
   letter-spacing: 0.3px;
 }
 
